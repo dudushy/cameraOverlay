@@ -1,5 +1,5 @@
 # [cameraOverlay](https://github.com/dudushy/cameraOverlay/)
-Template for Ionic projects.
+Overlay something into the camera source.
 
 # Setup
 ```npm i```
