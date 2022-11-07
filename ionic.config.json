@@ -1,5 +1,5 @@
 {
-  "name": "cameraOverlay",
+  "name": "camera-overlay",
   "integrations": {
     "cordova": {}
   },
