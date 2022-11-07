@@ -1,6 +1,4 @@
-<!--! Replace all 'template-ionic' to your PROJECT_NAME -->
-
-# [template-ionic](https://github.com/dudushy/template-ionic/)
+# [cameraOverlay](https://github.com/dudushy/cameraOverlay/)
 Template for Ionic projects.
 
 # Setup
