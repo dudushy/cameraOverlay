@@ -28,7 +28,7 @@ export class TestPage implements OnInit {
     previewDrag: true,
     toBack: true,
     alpha: 1,
-    storeToFile: false,
+    storeToFile: false
   };
   pictureOpts: CameraPreviewPictureOptions = {
     width: 1280,
@@ -79,6 +79,7 @@ export class TestPage implements OnInit {
     this.cameraPreview.startCamera(this.cameraPreviewOpts).then(
       (res) => {
         console.log(`[${this.title}#startCamera] response`, res);
+        // this.cameraPreview.show();
       },
       (err) => {
         console.log(`[${this.title}#startCamera] error`, err);
