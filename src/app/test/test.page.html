@@ -13,6 +13,33 @@
 </ion-header>
 
 <ion-content [attr.theme]="theme">
-  <p>HELLO</p>
-  <ion-button color="danger">test</ion-button>
+  <div *ngIf="picture != null">
+    <ion-title>
+      Image:
+    </ion-title>
+
+    <img [src]="picture">
+  </div>
+
+  <ion-list>
+    <ion-button (click)="takePicture()">
+      <ion-icon name="add-circle-outline"></ion-icon>
+      takePicture
+    </ion-button>
+
+    <ion-button (click)="takeSnapshot()">
+      <ion-icon name="add-circle-outline"></ion-icon>
+      takeSnapshot
+    </ion-button>
+
+    <ion-button (click)="switchCamera()">
+      <ion-icon name="add-circle-outline"></ion-icon>
+      switchCamera
+    </ion-button>
+
+    <ion-button>
+      <ion-icon name="add-circle-outline"></ion-icon>
+      Add
+    </ion-button>
+  </ion-list>
 </ion-content>
